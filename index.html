@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="do hoa.css">
+</head>
+
+<body>
+    <div>
+        <div class="option">
+            <div class="itemtrangchu">
+                <p onclick="trangchu()">Trang Chủ</p>
+            </div>
+            <div class="itemnam">
+                <p onclick="dataNam()">Nam</p>
+            </div>
+            <div class="itemnữ">
+                <p onclick="dataNu()">Nữ</p>
+            </div>
+            <div class="itemtrangchu">
+                <a href="cua hang quan ao.html"><img src="anhnew/logo.PNG" alt=""></a>
+            </div>
+             <input onkeypress="enterLogin(event, this)" id="search" placeholder="tìm kiếm" type="text" class="kin">
+            <p onclick="data()">
+                <img class="anhsearch" src="anhnew/images.jpg" alt="">
+            </p>
+            <button class="button">
+                <a href="gio hang.html"><img width="15px" height="15px" src="https://vinagex.com/template/images/cart.png" alt=""><span id="luonghang"></span></a>
+            </button>
+        </div>
+        <div class="slide-show">
+            <img onclick="trangchu()" class="imp" name="image" src="anhnew/anh trang chu/nu_ms_banner_img1.webp" alt="">
+            <button id="prev" onclick="prevImg()">&lt;</button>
+            <button id="next" onclick="nextImg()">&gt;</button>
+        </div>
+    </div>
+    
+    <p style="text-align: center; font-size: 25px; font-weight: bolder;">Các sản phẩm</p>
+    <div id="list-phone">
+
+    </div>
+    <hr style="color:coral;"> 
+    <!-- <footer>
+        <div class="my">Thành viên nhóm</div>
+        <div class="my-skill">
+            <div class="skill-item skill-html">
+                 Nguyen Van Hai
+            </div>
+            <div class="skill-item skill-js">
+                 Pham Tien Dung
+            </div>
+            <div class="skill-item skill-css">
+                 Pham Minh Quang
+            </div>
+        </div>
+    </footer> -->
+    <p id="box"></p>
+    <script src="du lieu.js"></script>
+</body>
+
+</html>
