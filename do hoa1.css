@@ -166,3 +166,7 @@
     font-weight: bold;
     padding: 2px;
 }
+
+.zx:hover{
+    cursor: pointer;
+}
